@@ -1,0 +1,65 @@
+{
+   "albumTitle": "Taylor Swift",
+   "PBList": [
+      {
+         "title": "Fashionopolis",
+         "artist": "Dana Thomas",
+         "url": "https://www.amazon.com/Taylor-Swift/dp/B0014I4KH6",
+         "image": "https://raw.githubusercontent.com/Shang-ChiChen/w5-img/main/img_book_fashinopolis.png",
+         "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg",
+         "price": 7.99,
+         "description": "Taylor Swift has been enhanced by the addition of 3 brand new tracks (\"I'm Only Me When I'm With You\", \"Invisible\", \"A Perfectly Good Heart\") and a pop version of the hit single Teardrops On My Guitar"
+      },
+      {
+         "title": "Chanel",
+         "artist": "Patrick Mauriès",
+         "url": "https://www.amazon.com/Fearless-Enhanced-Taylor-Swift/dp/B001EYGOEM",
+         "image": "https://raw.githubusercontent.com/Shang-ChiChen/w5-img/main/img_book_chanel.png",
+         "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg",
+         "price": 10.66,
+         "description": "Fearless is the 2008 sophomore album from Taylor Swift, the young Country singer/songwriter who charmed the hearts and charts of America beginning with her debut single 'Tim McGraw'. Her triple-platinum self-titled debut release has scanned over 3.4 million units and spent more weeks at #1 than any other Country album this year: 24 weeks! Taylor is the only Country female artist to have five Top 10 singles from a debut album and the only Country female vocalist this decade to reach the Top 5 on Billboard's Hot 100 Chart. Needless to say, she's a sensation that has only just begun to show what she is capable of. 13 tracks including the single 'Love Story' and 'Change', first heard during the 2008 Summer Olympics. --This text refers to the Audio CD edition."
+      },
+      {
+         "title": "Calligraphy",
+         "artist": "June & Lucy",
+         "url": "https://www.amazon.com/Speak-Now-Taylor-Swift/dp/B003WTE886",
+         "image": "https://raw.githubusercontent.com/Shang-ChiChen/w5-img/main/img_book_calligraphy.png",
+         "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg",
+         "price": 11.45,
+         "description": "2010 release, the third album from the Country/Pop superstar. Speak Now is the follow-up to her multi-million-selling 2008 album, Fearless. The 21-year-old singer/songwriter wrote the entire album on her own and co-produced with longtime collaborator Nathan Chapman, who worked with her on Fearless and her 2006 self-titled debut. Features the single 'Mine'."
+      }
+      ],
+   "NewestList": [
+      {
+         "title": "Yves Saint Laurent",
+         "artist": "Suzy Menkes",
+         "url": "https://www.amazon.com/Red-Taylor-Swift/dp/B008XNZMOU",
+         "image": "https://raw.githubusercontent.com/Shang-ChiChen/w5-img/main/img_book_ysl.png",
+         "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg",
+         "stars": 4,
+         "price": 46.99,
+         "description": "2010 release, the third album from the Country/Pop superstar. Speak Now is the follow-up to her multi-million-selling 2008 album, Fearless. The 21-year-old singer/songwriter wrote the entire album on her own and co-produced with longtime collaborator Nathan Chapman, who worked with her on Fearless and her 2006 self-titled debut. Features the single 'Mine'."
+      },
+      {
+         "title": "The Book of Signs",
+         "artist": "Rudolf Koch",
+         "url": "https://www.amazon.com/1989-Taylor-Swift/dp/B00MRHANNI",
+         "image": "https://raw.githubusercontent.com/Shang-ChiChen/w5-img/main/img_book_tbos.png",
+         "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg",
+         "price": 46.99,
+         "stars": 3,
+         "description": "Physical Album with 13 Songs"
+      },
+      {
+         "title": "Stitched Up",
+         "artist": "Tansy E. Hoskins",
+         "url": "https://www.amazon.com/1989-Taylor-Swift/dp/B00MRHANNI",
+         "image": "https://raw.githubusercontent.com/Shang-ChiChen/w5-img/main/img_book_stitchedup.png",
+         "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg",
+         "price": 46.99,
+         "stars": 3,
+         "description": "Physical Album with 13 Songs"
+      }
+   ]
+
+}

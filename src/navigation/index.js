@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import { NavigationContainer, useTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
@@ -10,7 +10,7 @@ import {
 } from '@react-navigation/drawer';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
-import { Divider, Image, Input, HStack, Text, Box } from 'native-base';
+import { Divider, Image, Input, HStack, Text, Box, Pressable } from 'native-base';
 
 import AlbumScreen from '../screens/AlbumScreen';
 import DetailScreen from '../screens/DetailScreen';
@@ -209,7 +209,10 @@ const SettingsStack = ({ navigation }) => {
 }
 
 const HomeStack = ({ navigation }) => {
-
+  const [toggle, setToggle] = useState(true);
+  const toggleFunc = () => {
+      setToggle(!toggle);
+  };
   return (
     <Stack.Navigator
     // screenOptions={{
@@ -262,12 +265,21 @@ const HomeStack = ({ navigation }) => {
             fontWeight: '400',
             fontSize: 20
           },
+          
           headerRight: () => (
-            <MaterialCommunityIcons
-              name={'magnify'}
+            <Pressable onPress={() => toggleFunc()}>
+              {toggle? <MaterialCommunityIcons
+              name={'bookmark-outline'}
               size={24}
-              style={{ marginRight: 0 }}
+              style={{ marginRight: 0, color:"#000000" }}
             />
+          :
+          <MaterialCommunityIcons
+              name={'bookmark'}
+              size={24}
+              style={{ marginRight: 0, color:"#6200EE"}}
+            />}
+            </Pressable>
           ),
         })}
       />
